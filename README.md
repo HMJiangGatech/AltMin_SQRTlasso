@@ -1,2 +1,2 @@
 # AltMin_SQRTlasso
-Implementation of Alt.Min algorithm for sqrtlasso model via glmnet in R
+Implementation of Alt.Min (Alternative Minimization) algorithm for sqrtlasso model via glmnet in R
