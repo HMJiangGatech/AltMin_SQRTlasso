@@ -19,5 +19,6 @@ altmin <- function(X,y,epsilon = 0.0001,lambda.min.ratio=0.01,verbose = FALSE)
     else
       altvar = newaltvar
   }
-  return(altvar)
+  beta <- as.matrix(submodel$beta)
+  return(beta[,ncol(beta)])
 }
